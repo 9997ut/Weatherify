@@ -14,4 +14,9 @@ About the project :           it is a simple weather app .
 features :            1. lets u fetch weather conditions like (temp, windspeed, pressure, feelsliketemp , visibility , etc) using location name .
                       2. u can use ur own loacation to fetc weather conditions of your location , by choosing the option of "Use my location".
                       3. shows valid errors , symbols to represent suitable weater conditions like sun , clouds , rain etc .
-                      
+
+
+Output :
+
+
+![Screenshot from 2025-03-08 12-57-20](https://github.com/user-attachments/assets/9e64a142-2985-4fb7-b744-6e0ee12ecf61)
