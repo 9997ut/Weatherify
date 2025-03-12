@@ -3,40 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Weatherify : a weather app .</title>
+    <title>Weatherify: A Weather App</title>
     <link rel="stylesheet" href="styles.css">
-    <script href="script.js" defer></script>
-
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
         <h1 id="heading">
-            <span id="name">Weatherify</span>: a weather app
+            <span id="name">Weatherify</span>: A Weather App
         </h1>
     </header>
     
     <main>
         <div class="searchcontainer">
-
             <button id="location">📍 Use My Location</button>
-            <input type="search" placeholder="enter the city name here"  id="searchbar">
+            <input type="search" placeholder="Enter the city name here" id="searchbar">
             <button id="fetch">Fetch</button>
-
         </div>
 
         <div class="weatherdescription">
-
-            <p id="loading" style="display:none;">Loading...</p>
+            <p id="loading" style="display: none;">Loading...</p>
             <div id="spinner" class="loading-spinner"></div>
 
             <h2>Weather Details</h2>
-            <span>Temperature (℃) : --</span>
-            <span>Weather Condition : --</span>
-            <span>Air Quality Index : --</span>
-            <span>Humidity : --</span>
-            <span>Wind Speed (KMPH) : --</span>
+            <div class="weather-grid">
+                <span>Temperature (℃): --</span>
+                <span>Weather Condition: --</span>
+                <span>Air Quality Index: --</span>
+                <span>Humidity: --</span>
+                <span>Wind Speed (KMPH): --</span>
+            </div>
         </div>
     </main>
-
 </body>
 </html>
